@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "loan_offers_enabled": true,
+  "crb_enabled": false,
+  "licensed_providers_enabled": true,
+  "government_loans_enabled": true
+}
