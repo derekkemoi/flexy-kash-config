@@ -1,0 +1,585 @@
+{
+  "schema_version": 1,
+  "catalog_id": "flexy-kash-government-loans",
+  "catalog_version": "1.2.0",
+  "country_code": "KE",
+  "language": "en-KE",
+  "currency": "KES",
+  "reviewed_on": "2026-11-06",
+  "disclaimer": "Flexy Kash provides independent information about government financing programmes. Flexy Kash is not a government agency and does not submit applications to these programmes. Products, conditions and application windows may change. Confirm eligibility, terms and current availability through each programme's official channels before applying. Icons are original representative illustrations, not official programme logos.",
+  "programs": [
+    {
+      "id": "hustler-fund",
+      "name": "Hustler Fund",
+      "short_name": "Hustler Fund",
+      "agency": "Financial Inclusion Fund",
+      "subtitle": "Mobile-based personal and group financing",
+      "description": "A Government of Kenya financial inclusion programme offering personal, group and bridging credit products through official mobile channels. Eligibility, loan limits, repayment conditions and savings deductions vary by product and borrower history.",
+      "categories": [
+        "PERSONAL",
+        "BUSINESS",
+        "GROUP"
+      ],
+      "target_audiences": [
+        "Individual borrowers",
+        "Small businesses",
+        "Borrowing groups"
+      ],
+      "availability_status": "CHECK_OFFICIAL_SOURCE",
+      "availability_note": "Check the official mobile service for your available products, approved limit and current terms.",
+      "official_website_url": "https://www.hustlerfund.go.ke/",
+      "application_channels": [
+        {
+          "type": "USSD",
+          "label": "Official Hustler Fund USSD",
+          "value": "*254#",
+          "url": null
+        },
+        {
+          "type": "WEBSITE",
+          "label": "Official application instructions",
+          "value": null,
+          "url": "https://hustlerfund.go.ke/loans"
+        }
+      ],
+      "products": [
+        {
+          "id": "hustler-personal",
+          "name": "Personal Loan",
+          "summary": "Short-term individual mobile credit with a limit determined by the programme.",
+          "amount_min_kes": 100,
+          "amount_max_kes": 50000,
+          "amount_note": "Officially described range; the actual customer limit may be lower.",
+          "repayment_note": "14 days according to the official product description.",
+          "rate_or_fee_note": "Official product description states an annual interest rate of 8%, calculated daily; check the terms shown during application.",
+          "eligibility": [
+            "Kenyan citizen aged 18 or older.",
+            "Valid National ID required by the programme.",
+            "Registered on a supported mobile money service.",
+            "Active SIM card for at least 90 days, according to the official product description."
+          ],
+          "required_documents": [
+            "Valid National ID as required by the programme."
+          ],
+          "application_steps": [
+            "Dial *254# using a supported mobile network.",
+            "Select the Hustler Fund personal loan service and follow the prompts.",
+            "Review the offered amount, deductions, repayment conditions and terms before confirming."
+          ],
+          "source_url": "https://www.hustlerfund.go.ke/personal-loan"
+        },
+        {
+          "id": "hustler-group",
+          "name": "Group Loan",
+          "summary": "Collective financing for eligible groups undertaking economic activities.",
+          "amount_min_kes": null,
+          "amount_max_kes": 1000000,
+          "amount_note": "Official product page describes loans of up to KES 1,000,000; approved limits depend on group eligibility.",
+          "repayment_note": "Official product page describes a 30-day repayment period; confirm the currently offered terms.",
+          "rate_or_fee_note": "Official product page states 95% is disbursed to the group wallet and 5% allocated to group savings; verify current terms.",
+          "eligibility": [
+            "Group borrowers must meet the programme's membership and onboarding requirements.",
+            "The official FAQ describes group participation for Kenyan citizens aged 18 or older.",
+            "Group officials and participating members must complete the official authorization steps."
+          ],
+          "required_documents": [
+            "Group registration details if applicable to the chosen onboarding route."
+          ],
+          "application_steps": [
+            "Dial *254# and select the group loan service.",
+            "Create or onboard a group using the options presented by the programme.",
+            "Follow member authorization and application prompts.",
+            "Review all group obligations and terms before confirming."
+          ],
+          "source_url": "https://www.hustlerfund.go.ke/group-loan-product"
+        },
+        {
+          "id": "hustler-bridge",
+          "name": "Bridge Loan",
+          "summary": "A follow-on product aimed at eligible repeat borrowers with good repayment histories.",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "amount_note": "The available amount is customer-specific; consult the official service for the approved limit.",
+          "repayment_note": "Official product rules describe a 30-day term; confirm current conditions at application.",
+          "rate_or_fee_note": "Published official rules refer to 8% annually for the first 30 days and 9.5% annually from day 31; confirm current pricing.",
+          "eligibility": [
+            "Existing Hustler Fund borrower with qualifying repayment history.",
+            "A favorable programme rating may be required.",
+            "Outstanding personal or Bridge Loan balances may prevent new borrowing."
+          ],
+          "required_documents": [
+            "Identification and borrower information required by Hustler Fund."
+          ],
+          "application_steps": [
+            "Dial *254# and select Hustler Fund.",
+            "Choose Bridge Loan where available and check your eligibility and limit.",
+            "Review the loan amount, savings allocation and repayment terms, then confirm within the official service."
+          ],
+          "source_url": "https://www.hustlerfund.go.ke/bridge-loan-product"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hustler Fund — Official website",
+          "url": "https://www.hustlerfund.go.ke/"
+        },
+        {
+          "title": "Hustler Fund — Personal Loan",
+          "url": "https://www.hustlerfund.go.ke/personal-loan"
+        },
+        {
+          "title": "Hustler Fund — Group Loan",
+          "url": "https://www.hustlerfund.go.ke/group-loan-product"
+        },
+        {
+          "title": "Hustler Fund — Bridge Loan",
+          "url": "https://www.hustlerfund.go.ke/bridge-loan-product"
+        }
+      ],
+      "last_verified_on": "2026-11-06",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/government-loans/hustler-fund.png",
+      "icon_type": "representative_illustration"
+    },
+    {
+      "id": "uwezo-fund",
+      "name": "Uwezo Fund",
+      "short_name": "Uwezo Fund",
+      "agency": "Uwezo Fund",
+      "subtitle": "Constituency-based loans for eligible groups",
+      "description": "Government financing that supports registered groups of youth, women and persons with disabilities with enterprise projects. The fund provides first-time and subsequent borrowing products, subject to group eligibility and constituency-level assessment.",
+      "categories": [
+        "GROUP",
+        "BUSINESS",
+        "YOUTH",
+        "WOMEN",
+        "DISABILITY"
+      ],
+      "target_audiences": [
+        "Registered youth groups",
+        "Registered women's groups",
+        "Registered groups of persons with disabilities"
+      ],
+      "availability_status": "CHECK_OFFICIAL_SOURCE",
+      "availability_note": "Check the official portal or constituency office for current application procedures and availability.",
+      "official_website_url": "https://www.uwezo.go.ke/",
+      "application_channels": [
+        {
+          "type": "WEB",
+          "label": "Official Uwezo loan portal",
+          "value": null,
+          "url": "https://loans.uwezo.go.ke/"
+        },
+        {
+          "type": "OFFICE",
+          "label": "Constituency Uwezo Fund office",
+          "value": "Apply or seek guidance through your constituency office.",
+          "url": null
+        }
+      ],
+      "products": [
+        {
+          "id": "uwezo-wezesha",
+          "name": "Wezesha Loan",
+          "summary": "First-time enterprise financing for eligible groups.",
+          "amount_min_kes": 50000,
+          "amount_max_kes": 100000,
+          "amount_note": "Published first-time loan range; assessment and approval are required.",
+          "repayment_note": "Official product page describes repayment over 12 months following a six-month grace period.",
+          "rate_or_fee_note": null,
+          "eligibility": [
+            "A registered group holding a valid registration certificate.",
+            "Group bank account in the group's name.",
+            "Youth groups: at least 70% youth aged 18–35 and all group leaders youth.",
+            "Women's groups: at least 70% women and all group leaders women.",
+            "PWD groups: at least 70% members with disabilities and all group leaders members with disabilities.",
+            "Constituency appraisal and recommendation are required."
+          ],
+          "required_documents": [
+            "Valid group registration certificate.",
+            "Completed official application form and its listed attachments.",
+            "Group bank account information."
+          ],
+          "application_steps": [
+            "Review the eligibility requirements on the official Uwezo website.",
+            "Obtain the official application form or follow the instructions on the official portal.",
+            "Submit the completed application and attachments through the instructed constituency channel.",
+            "Await constituency-level vetting and a formal decision."
+          ],
+          "source_url": "https://uwezo.go.ke/loan-products"
+        },
+        {
+          "id": "uwezo-endeleza",
+          "name": "Endeleza Loan",
+          "summary": "Subsequent financing for groups that have repaid and used an earlier loan appropriately.",
+          "amount_min_kes": null,
+          "amount_max_kes": 500000,
+          "amount_note": "Subsequent financing can increase with the prior facility, subject to a published KES 500,000 ceiling.",
+          "repayment_note": null,
+          "rate_or_fee_note": null,
+          "eligibility": [
+            "Group has completed repayment of its earlier Wezesha facility.",
+            "Group can demonstrate appropriate use of funds and potential for business growth.",
+            "Group continues to meet Uwezo Fund registration, composition and appraisal requirements."
+          ],
+          "required_documents": [
+            "Valid group registration certificate and official application attachments.",
+            "Proof or discharge certificate for the completed earlier loan, as requested by the fund."
+          ],
+          "application_steps": [
+            "Check the official Endeleza eligibility criteria.",
+            "Complete the required official application and include evidence of the prior loan's completion.",
+            "Submit through the instructed constituency channel and await appraisal."
+          ],
+          "source_url": "https://uwezo.go.ke/loan-products"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Uwezo Fund — Loan Products",
+          "url": "https://uwezo.go.ke/loan-products"
+        },
+        {
+          "title": "Uwezo Fund — Official Loan Portal",
+          "url": "https://loans.uwezo.go.ke/"
+        }
+      ],
+      "last_verified_on": "2026-11-06",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/government-loans/uwezo-fund.png",
+      "icon_type": "representative_illustration"
+    },
+    {
+      "id": "women-enterprise-fund",
+      "name": "Women Enterprise Fund",
+      "short_name": "Women Enterprise Fund",
+      "agency": "Women Enterprise Fund",
+      "subtitle": "Enterprise financing for women's groups",
+      "description": "A Kenyan government agency that provides enterprise financing and related support to women. Its Tuinuke loan supports qualifying women's self-help groups, with loan amounts increasing across successful repayment cycles.",
+      "categories": [
+        "GROUP",
+        "BUSINESS",
+        "WOMEN"
+      ],
+      "target_audiences": [
+        "Registered women's self-help groups",
+        "Women entrepreneurs"
+      ],
+      "availability_status": "CHECK_OFFICIAL_SOURCE",
+      "availability_note": "Confirm current Tuinuke terms and constituency-office application arrangements before applying.",
+      "official_website_url": "https://wef.go.ke/",
+      "application_channels": [
+        {
+          "type": "OFFICE",
+          "label": "Women Enterprise Fund constituency office",
+          "value": "Contact the nearest WEF constituency office for forms and submission instructions.",
+          "url": null
+        },
+        {
+          "type": "WEBSITE",
+          "label": "Official Tuinuke loan information",
+          "value": null,
+          "url": "https://wef.go.ke/tuinuke-loan/"
+        }
+      ],
+      "products": [
+        {
+          "id": "wef-tuinuke-chama",
+          "name": "Tuinuke Chama Loan",
+          "summary": "Group enterprise finance following a progressive loan-cycle structure.",
+          "amount_min_kes": 100000,
+          "amount_max_kes": 750000,
+          "amount_note": "Published loan cycles are KES 100,000, 200,000, 350,000, 500,000 and 750,000. New groups do not automatically qualify for the highest cycle.",
+          "repayment_note": "Published repayment periods increase by cycle: 6, 9, 12, 15 and 18 months respectively.",
+          "rate_or_fee_note": "The official Tuinuke product page describes a one-time upfront administrative fee of 6%. Confirm the current amount and deductions.",
+          "eligibility": [
+            "Registered self-help group of 10–30 women aged 18 or older.",
+            "Group has been registered with the relevant government body for at least three months.",
+            "Group has an active commercial bank account.",
+            "Group completes WEF financial literacy training.",
+            "Members comply with the fund's group-membership conditions."
+          ],
+          "required_documents": [
+            "Completed official Tuinuke loan form.",
+            "Group registration certificate.",
+            "Group bank-account details.",
+            "Other supporting documents requested by the constituency office."
+          ],
+          "application_steps": [
+            "Visit the nearest Women Enterprise Fund constituency office.",
+            "Complete the required financial literacy training and obtain the application form.",
+            "Submit the completed form with the group registration and bank-account documents.",
+            "Await assessment, approval and official disbursement instructions."
+          ],
+          "source_url": "https://wef.go.ke/tuinuke-loan/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Women Enterprise Fund — Tuinuke Loan",
+          "url": "https://wef.go.ke/tuinuke-loan/"
+        },
+        {
+          "title": "Women Enterprise Fund — Official Website",
+          "url": "https://wef.go.ke/"
+        }
+      ],
+      "last_verified_on": "2026-11-06",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/government-loans/women-enterprise-fund.png",
+      "icon_type": "representative_illustration"
+    },
+    {
+      "id": "youth-enterprise-development-fund",
+      "name": "Youth Enterprise Development Fund",
+      "short_name": "Youth Fund",
+      "agency": "Youth Enterprise Development Fund",
+      "subtitle": "Financing and business support for young entrepreneurs",
+      "description": "A Government of Kenya fund supporting youth-owned businesses through group credit, business start-up and expansion loans, and procurement-related financing. Product conditions and security requirements depend on the selected facility.",
+      "categories": [
+        "YOUTH",
+        "BUSINESS",
+        "GROUP",
+        "ASSET_FINANCE"
+      ],
+      "target_audiences": [
+        "Youth entrepreneurs",
+        "Youth business groups",
+        "Youth-owned enterprises"
+      ],
+      "availability_status": "CHECK_OFFICIAL_SOURCE",
+      "availability_note": "Visit an official Youth Fund office or website for product eligibility, updated forms and current terms.",
+      "official_website_url": "https://www.youthfund.go.ke/",
+      "application_channels": [
+        {
+          "type": "OFFICE",
+          "label": "Youth Fund county office",
+          "value": "Obtain and submit the correct form through the county office, following official guidance.",
+          "url": null
+        },
+        {
+          "type": "WEBSITE",
+          "label": "Official loan products",
+          "value": null,
+          "url": "https://www.youthfund.go.ke/our-products/"
+        }
+      ],
+      "products": [
+        {
+          "id": "yedf-stawi",
+          "name": "Stawi Group Loan",
+          "summary": "Group finance for qualifying youth-owned business activities and projects.",
+          "amount_min_kes": null,
+          "amount_max_kes": 1000000,
+          "amount_note": "Published group-loan information lists progressive limits up to KES 1,000,000; first-time limits depend on the group's circumstances.",
+          "repayment_note": "Repayment period varies by loan amount and group circumstances; confirm the official schedule.",
+          "rate_or_fee_note": "The official group-loan page describes a one-off 5% management fee and other training requirements. Confirm current conditions.",
+          "eligibility": [
+            "Qualifying registered group with a valid registration certificate.",
+            "At least 70% of members are youth aged 18–34 and all group leaders are youth, according to the official group-loan page.",
+            "Group has a bank account and completes required entrepreneurship training."
+          ],
+          "required_documents": [
+            "Group registration certificate and membership details.",
+            "Completed official application form.",
+            "Required bank statements or business records, depending on group circumstances.",
+            "Group guarantee and applicable training documents."
+          ],
+          "application_steps": [
+            "Confirm group eligibility and the appropriate loan product with a Youth Fund officer.",
+            "Obtain and complete the group application form and the required training.",
+            "Submit the application with group, bank and business documents to the designated office.",
+            "Wait for appraisal and official repayment and security conditions."
+          ],
+          "source_url": "https://www.youthfund.go.ke/constituency-based-loan/"
+        },
+        {
+          "id": "yedf-vuka",
+          "name": "Vuka Business Loan",
+          "summary": "Start-up or business expansion funding for eligible youth enterprises.",
+          "amount_min_kes": null,
+          "amount_max_kes": 5000000,
+          "amount_note": "Official product information describes Vuka facilities up to KES 5 million; limits differ between start-up and expansion products.",
+          "repayment_note": "Repayment term depends on the approved loan amount and security arrangements.",
+          "rate_or_fee_note": "Published Youth Fund pages have varying historical cost information; obtain a current product quotation from the fund.",
+          "eligibility": [
+            "Youth applicant intending to start or expand a viable enterprise.",
+            "A viable business proposal or an operating business, as applicable.",
+            "Security and business operating-history requirements vary by the facility."
+          ],
+          "required_documents": [
+            "Official Vuka application form.",
+            "Business-plan or business records relevant to the product.",
+            "Identity, registration, bank and security documents requested by the fund."
+          ],
+          "application_steps": [
+            "Discuss the appropriate Vuka facility and current eligibility with the Youth Fund.",
+            "Obtain the official application form and assemble the required business and security records.",
+            "Submit through the fund's designated office or official channel and await appraisal."
+          ],
+          "source_url": "https://www.youthfund.go.ke/business-expansion-loan-vuka/"
+        },
+        {
+          "id": "yedf-procurement-finance",
+          "name": "LPO/LSO and Bid Bond Financing",
+          "summary": "Procurement-related finance for eligible youth enterprises participating in tenders.",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "amount_note": "Limits and financing percentages depend on the procurement facility and assessed documents.",
+          "repayment_note": null,
+          "rate_or_fee_note": null,
+          "eligibility": [
+            "Youth-owned individual enterprise, registered group, partnership or company participating in eligible tenders.",
+            "Satisfy the facility's tender or purchase-order verification and assessment criteria."
+          ],
+          "required_documents": [
+            "Relevant LPO, LSO, tender or bid documents.",
+            "Business registration and any fund-required application and security documentation."
+          ],
+          "application_steps": [
+            "Check current bid bond and LPO/LSO financing terms on the official product page.",
+            "Request the correct loan application form or guidance from the Youth Fund.",
+            "Submit your application and verified procurement documentation through the designated official channel."
+          ],
+          "source_url": "https://www.youthfund.go.ke/our-products/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Youth Fund — Our Products",
+          "url": "https://www.youthfund.go.ke/our-products/"
+        },
+        {
+          "title": "Youth Fund — Group Loans",
+          "url": "https://www.youthfund.go.ke/constituency-based-loan/"
+        },
+        {
+          "title": "Youth Fund — Vuka Loans",
+          "url": "https://www.youthfund.go.ke/business-expansion-loan-vuka/"
+        },
+        {
+          "title": "Youth Fund — About Us and How to Apply",
+          "url": "https://www.youthfund.go.ke/about-us/"
+        }
+      ],
+      "last_verified_on": "2026-11-06",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/government-loans/youth-enterprise-fund.png",
+      "icon_type": "representative_illustration"
+    },
+    {
+      "id": "helb-student-loans",
+      "name": "HELB Student Loans",
+      "short_name": "HELB",
+      "agency": "Higher Education Loans Board",
+      "subtitle": "Student loans for eligible university and TVET learners",
+      "description": "The Higher Education Loans Board administers student lending programmes. First-time university and TVET applicants can use the official Higher Education Financing (HEF) process, while subsequent applicants have channels described in HELB's official guide. Application periods, funding assessments and award amounts depend on current programme rules.",
+      "categories": [
+        "EDUCATION",
+        "YOUTH"
+      ],
+      "target_audiences": [
+        "Eligible undergraduate students",
+        "Eligible TVET students",
+        "Continuing students applying for subsequent funding"
+      ],
+      "availability_status": "CHECK_OFFICIAL_SOURCE",
+      "availability_note": "Academic-year application windows change. Check the official HEF portal for the relevant intake and whether applications are currently open.",
+      "official_website_url": "https://www.helb.co.ke/",
+      "application_channels": [
+        {
+          "type": "WEB",
+          "label": "HEF application portal",
+          "value": null,
+          "url": "https://portal.hef.co.ke/"
+        },
+        {
+          "type": "WEBSITE",
+          "label": "Official application guide",
+          "value": null,
+          "url": "https://portal.hef.co.ke/auth/index/application_guide"
+        },
+        {
+          "type": "USSD",
+          "label": "Subsequent applications (where supported)",
+          "value": "*642#",
+          "url": null
+        }
+      ],
+      "products": [
+        {
+          "id": "helb-undergraduate",
+          "name": "Undergraduate Student Loan",
+          "summary": "Education financing for eligible undergraduate students under the applicable funding scheme.",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "amount_note": "Funding depends on eligibility and applicable student financing assessment; no single fixed award amount is represented.",
+          "repayment_note": "Repayment terms are determined by the official loan agreement.",
+          "rate_or_fee_note": "HELB states that applying for a loan is free; loan costs are governed by the particular financing scheme and agreement.",
+          "eligibility": [
+            "Student meets the undergraduate eligibility criteria of the applicable scheme.",
+            "Student has the required university admission and academic information.",
+            "Application is made within the relevant official funding period."
+          ],
+          "required_documents": [
+            "Valid email address and telephone number.",
+            "National ID/Maisha Card when required; alternatives may be available for eligible minors.",
+            "KCPE/KCSE examination details and institution admission information.",
+            "Passport-size photo, parent/guardian information and guarantor details as required.",
+            "Bank or supported mobile-payment details where required."
+          ],
+          "application_steps": [
+            "Visit the official HEF portal and create or access your student account.",
+            "Complete your profile and upload the documents requested for your category.",
+            "Select the applicable first-time or subsequent undergraduate application.",
+            "Review the official consent and loan terms and submit within the application window.",
+            "Track the application outcome through the official portal or other HELB-supported channels."
+          ],
+          "source_url": "https://portal.hef.co.ke/auth/index/application_guide"
+        },
+        {
+          "id": "helb-tvet",
+          "name": "TVET Student Loan",
+          "summary": "Education financing for eligible students in technical and vocational programmes.",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "amount_note": "Funding depends on the student's programme and the official assessment.",
+          "repayment_note": "Repayment terms follow the applicable HELB loan agreement.",
+          "rate_or_fee_note": "HELB states that making an application is free; check the financing agreement for loan costs.",
+          "eligibility": [
+            "Student meets the current TVET financing eligibility rules.",
+            "Student has the required admission and identifying information.",
+            "Application is made during the applicable official funding period."
+          ],
+          "required_documents": [
+            "Email address and telephone number.",
+            "National ID/Maisha Card or the accepted alternative for an eligible minor.",
+            "Academic examination and institution admission details.",
+            "Passport-size photo and supporting family/guarantor information where required.",
+            "Eligible bank or mobile-money details."
+          ],
+          "application_steps": [
+            "Visit the official HEF portal and select the appropriate TVET application path.",
+            "Register or sign in, complete biodata and provide the required documents.",
+            "Review the current terms and personal-data consent information.",
+            "Submit electronically and use official channels to track progress."
+          ],
+          "source_url": "https://portal.hef.co.ke/auth/index/application_guide"
+        }
+      ],
+      "sources": [
+        {
+          "title": "HELB — Official Website",
+          "url": "https://www.helb.co.ke/"
+        },
+        {
+          "title": "HEF — Official Application Guide",
+          "url": "https://portal.hef.co.ke/auth/index/application_guide"
+        },
+        {
+          "title": "HELB — Student FAQs",
+          "url": "https://www.helb.co.ke/faqs/students-faqs/"
+        }
+      ],
+      "last_verified_on": "2026-11-06",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/government-loans/helb.png",
+      "icon_type": "representative_illustration"
+    }
+  ]
+}
