@@ -1,0 +1,1607 @@
+{
+  "schema_version": 1,
+  "catalog_id": "flexy-kash-licensed-digital-credit-providers-ke",
+  "catalog_version": "1.1.0",
+  "country_code": "KE",
+  "language": "en",
+  "currency": "KES",
+  "reviewed_on": "2026-11-06",
+  "regulator": "Central Bank of Kenya",
+  "regulator_directory_updated_on": "2026-09-29",
+  "regulator_directory_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+  "selection_note": "Curated subset (25) of the 281 legal entities listed in the CBK September 2026 directory. This is not a ranking or an exhaustive directory.",
+  "disclaimer": "This is an independent informational directory, not a CBK service, government endorsement, lender recommendation or a guarantee of loan availability or approval. Licensing is based on the CBK directory updated 29 September 2026; verify current status, loan costs and official application routes directly with the lender. Flexy Kash does not collect applications for external providers.",
+  "display_policy": {
+    "sort": "NAME_ASC",
+    "external_applications_only": true,
+    "missing_website_behavior": "SHOW_CONTACTS_ONLY",
+    "missing_icon_behavior": "INITIALS_FALLBACK",
+    "rates_not_confirmed_behavior": "HIDE"
+  },
+  "providers": [
+    {
+      "id": "asa-international",
+      "name": "ASA International Kenya",
+      "short_name": "ASA International Kenya",
+      "legal_name": "ASA International Kenya Limited",
+      "trading_name": "ASA International Kenya",
+      "subtitle": "Microenterprise loans, particularly aimed at lower-income women entrepreneurs.",
+      "description": "Microenterprise loans, particularly aimed at lower-income women entrepreneurs.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 16,
+      "licensed_on": "2025-12-24",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "BUSINESS",
+        "EDUCATION"
+      ],
+      "products": [
+        {
+          "name": "Small loan",
+          "source_url": "https://kenya.asa-international.com/products/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Small-business loan",
+          "source_url": "https://kenya.asa-international.com/products/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "School-fee loan",
+          "source_url": "https://kenya.asa-international.com/products/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254702092230"
+        ],
+        "email": "info@asa-ke.com",
+        "office_address": "House No. 247, Owashika Road, off Isaac Gathanju Road, Lavington, Nairobi"
+      },
+      "official_website_url": "https://kenya.asa-international.com/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://kenya.asa-international.com/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/asa-international.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://kenya.asa-international.com/products/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "asante",
+      "name": "Asante Financial Services",
+      "short_name": "Asante Financial Services",
+      "legal_name": "Asante FS East Africa Limited",
+      "trading_name": "Asante Financial Services",
+      "subtitle": "Working capital, agent float, smartphone and insurance-premium finance services.",
+      "description": "Working capital, agent float, smartphone and insurance-premium finance services.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 17,
+      "licensed_on": "2023-03-27",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "BUSINESS",
+        "ASSET_FINANCE"
+      ],
+      "products": [
+        {
+          "name": "Small-business working capital",
+          "source_url": "https://www.asantefinancegroup.com/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Mobile-money agent float finance",
+          "source_url": "https://www.asantefinancegroup.com/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Smartphone finance",
+          "source_url": "https://www.asantefinancegroup.com/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Insurance premium finance",
+          "source_url": "https://www.asantefinancegroup.com/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254111017500"
+        ],
+        "email": "info@asantefinancegroup.com",
+        "office_address": "Delta Corner Towers, 3rd Floor, Waiyaki Way, Westlands, Nairobi"
+      },
+      "official_website_url": "https://www.asantefinancegroup.com/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://www.asantefinancegroup.com/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/asante.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://www.asantefinancegroup.com/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "autochek",
+      "name": "Autochek",
+      "short_name": "Autochek",
+      "legal_name": "Autochek Limited",
+      "trading_name": "Autochek",
+      "subtitle": "Automotive marketplace with car finance services in Kenya.",
+      "description": "Automotive marketplace with car finance services in Kenya.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 20,
+      "licensed_on": "2024-03-06",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "ASSET_FINANCE"
+      ],
+      "products": [
+        {
+          "name": "Car financing",
+          "source_url": "https://www.autochek.africa/ke",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254791694004"
+        ],
+        "email": "autochekkenya@autochek.africa",
+        "office_address": "Nivina Towers, 1st Floor, East Wing, Nairobi"
+      },
+      "official_website_url": "https://www.autochek.africa/ke",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://www.autochek.africa/ke"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/autochek.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://www.autochek.africa/ke"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "bayes",
+      "name": "Bayes",
+      "short_name": "Bayes",
+      "legal_name": "Pi Capital Limited",
+      "trading_name": "Bayes",
+      "subtitle": "Mobile loans and asset-linked financing under the Bayes trading name.",
+      "description": "Mobile loans and asset-linked financing under the Bayes trading name.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 200,
+      "licensed_on": "2024-03-06",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "PERSONAL",
+        "ASSET_FINANCE",
+        "BUSINESS"
+      ],
+      "products": [
+        {
+          "name": "Mobile loans",
+          "source_url": "https://www.bayes.co.ke/about",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Logbook financing",
+          "source_url": "https://www.bayes.co.ke/about",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Salary advances",
+          "source_url": "https://www.bayes.co.ke/about",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254759808086",
+          "+254759808080"
+        ],
+        "email": "info@bayes.co.ke",
+        "office_address": "Mitsumi Business Park, 5th Floor, Muthithi Road, Westlands, Nairobi"
+      },
+      "official_website_url": "https://www.bayes.co.ke/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://www.bayes.co.ke/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/bayes.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://www.bayes.co.ke/about"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "bimas",
+      "name": "BIMAS",
+      "short_name": "BIMAS",
+      "legal_name": "Bimas Kenya Limited",
+      "trading_name": "BIMAS",
+      "subtitle": "Credit solutions for micro-enterprises, agriculture and vehicle-backed borrowing.",
+      "description": "Credit solutions for micro-enterprises, agriculture and vehicle-backed borrowing.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 34,
+      "licensed_on": "2025-06-05",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "BUSINESS",
+        "AGRICULTURE",
+        "ASSET_FINANCE"
+      ],
+      "products": [
+        {
+          "name": "Agribusiness loans",
+          "source_url": "https://www.bimaskenya.com/index.php/about-us/lending-methodology",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Business loans",
+          "source_url": "https://www.bimaskenya.com/index.php/about-us/lending-methodology",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Logbook loans",
+          "source_url": "https://www.bimaskenya.com/index.php/about-us/lending-methodology",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "0111056010"
+        ],
+        "email": "info@bimaskenya.com",
+        "office_address": "Bimas Plaza, Embu"
+      },
+      "official_website_url": "https://www.bimaskenya.com/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://www.bimaskenya.com/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/bimas.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://www.bimaskenya.com/index.php/about-us/lending-methodology"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "flashpesa",
+      "name": "FlashPesa",
+      "short_name": "FlashPesa",
+      "legal_name": "Ambush Capital Limited",
+      "trading_name": "FlashPesa",
+      "subtitle": "FlashPesa is listed as a trading name of Ambush Capital Limited; official app listing is available.",
+      "description": "FlashPesa is listed as a trading name of Ambush Capital Limited; official app listing is available.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 13,
+      "licensed_on": "2024-10-01",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "PERSONAL"
+      ],
+      "products": [],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254769159474"
+        ],
+        "email": "support@flashpesa.co.ke",
+        "office_address": "Applewood Adams, Unit 1302, 13th Floor, Ngong Road, Nairobi"
+      },
+      "official_website_url": null,
+      "website_verification": "NOT_ESTABLISHED",
+      "application_channels": [
+        {
+          "type": "PLAY_STORE",
+          "label": "View verified app listing",
+          "url": "https://play.google.com/store/apps/details?id=com.newton"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/flashpesa.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Google Play listing with provider contact information",
+          "url": "https://play.google.com/store/apps/details?id=com.newton"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "inkomoko",
+      "name": "Inkomoko Capital Kenya",
+      "short_name": "Inkomoko Capital Kenya",
+      "legal_name": "Inkomoko Capital Kenya Limited",
+      "trading_name": "Inkomoko Capital Kenya",
+      "subtitle": "Business finance and advisory for entrepreneurs in displacement-affected and host communities.",
+      "description": "Business finance and advisory for entrepreneurs in displacement-affected and host communities.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 105,
+      "licensed_on": "2026-04-10",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "BUSINESS"
+      ],
+      "products": [
+        {
+          "name": "Enterprise investment and business support",
+          "source_url": "https://www.inkomoko.com/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254794590228"
+        ],
+        "email": "info-ke@inkomoko.com",
+        "office_address": "Bishop Magua Building, Nairobi"
+      },
+      "official_website_url": "https://www.inkomoko.com/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://www.inkomoko.com/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/inkomoko.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://www.inkomoko.com/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "jumo",
+      "name": "JUMO",
+      "short_name": "JUMO",
+      "legal_name": "Jumo Kenya Limited",
+      "trading_name": "JUMO",
+      "subtitle": "Financial technology infrastructure for banks, mobile operators and other finance partners; not a direct consumer loan application.",
+      "description": "Financial technology infrastructure for banks, mobile operators and other finance partners; not a direct consumer loan application.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 121,
+      "licensed_on": "2023-01-30",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "FINANCIAL_INFRASTRUCTURE"
+      ],
+      "products": [],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254787777771"
+        ],
+        "email": "contact@jumo.world",
+        "office_address": "Ikigai Nairobi, Merchant Square, Riverside Drive, Nairobi"
+      },
+      "official_website_url": "https://jumo.world/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://jumo.world/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/jumo.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://jumo.world/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "lendplus",
+      "name": "LendPlus",
+      "short_name": "LendPlus",
+      "legal_name": "Aventus Technology Limited",
+      "trading_name": "LendPlus",
+      "subtitle": "Mobile and web loan applications managed by LendPlus.",
+      "description": "Mobile and web loan applications managed by LendPlus.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 23,
+      "licensed_on": "2025-06-05",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "PERSONAL"
+      ],
+      "products": [
+        {
+          "name": "Online mobile loan",
+          "source_url": "https://lendplus.ke/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254709029000"
+        ],
+        "email": "customer@lendplus.ke",
+        "office_address": "Rhapta Heights, Rhapta Road, Nairobi"
+      },
+      "official_website_url": "https://lendplus.ke/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://lendplus.ke/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/lendplus.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://lendplus.ke/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "letshego",
+      "name": "Letshego Kenya",
+      "short_name": "Letshego Kenya",
+      "legal_name": "Letshego Kenya Ltd",
+      "trading_name": "Letshego Kenya",
+      "subtitle": "Loans for qualifying individuals and micro or small entrepreneurs.",
+      "description": "Loans for qualifying individuals and micro or small entrepreneurs.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 137,
+      "licensed_on": "2023-01-30",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "PERSONAL",
+        "BUSINESS"
+      ],
+      "products": [
+        {
+          "name": "Personal loans",
+          "source_url": "https://www.letshego.com/kenya/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Micro and small enterprise loans",
+          "source_url": "https://www.letshego.com/kenya/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254730687000"
+        ],
+        "email": "kenya@letshego.com",
+        "office_address": "316 Upper Hill Chambers, 7th Floor, 2nd Ngong Avenue, Nairobi"
+      },
+      "official_website_url": "https://www.letshego.com/kenya/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://www.letshego.com/kenya/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/letshego.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://www.letshego.com/kenya/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "little-pesa",
+      "name": "Little Pesa",
+      "short_name": "Little Pesa",
+      "legal_name": "Little Pesa Limited",
+      "trading_name": "Little Pesa",
+      "subtitle": "Mobile loans, instalment products and product financing via Little Pesa’s own channels.",
+      "description": "Mobile loans, instalment products and product financing via Little Pesa’s own channels.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 142,
+      "licensed_on": "2023-03-27",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "PERSONAL",
+        "ASSET_FINANCE"
+      ],
+      "products": [
+        {
+          "name": "Short-term loans",
+          "source_url": "https://littlepesa.com/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Flexipay",
+          "source_url": "https://littlepesa.com/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Product financing",
+          "source_url": "https://littlepesa.com/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254746510778",
+          "+254710490126",
+          "+254746510781"
+        ],
+        "email": "info@littlepesa.com",
+        "office_address": "Reliable Towers, Mogotio Road, Westlands, Nairobi"
+      },
+      "official_website_url": "https://littlepesa.com/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://littlepesa.com/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/little-pesa.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://littlepesa.com/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "m-kopa",
+      "name": "M-KOPA",
+      "short_name": "M-KOPA",
+      "legal_name": "M-Kopa Loan Kenya Limited",
+      "trading_name": "M-KOPA",
+      "subtitle": "Financed smartphones and related credit services; eligibility depends on M-KOPA’s programme.",
+      "description": "Financed smartphones and related credit services; eligibility depends on M-KOPA’s programme.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 163,
+      "licensed_on": "2023-01-30",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "ASSET_FINANCE",
+        "PERSONAL"
+      ],
+      "products": [
+        {
+          "name": "Smartphone financing",
+          "source_url": "https://www.m-kopa.com/country/kenya",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Digital loans for qualifying customers",
+          "source_url": "https://www.m-kopa.com/country/kenya",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254799136761"
+        ],
+        "email": "compliance@m-kopa.com",
+        "office_address": "Riverside Paddocks, M-Kopa House, Nairobi"
+      },
+      "official_website_url": "https://www.m-kopa.com/country/kenya",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://www.m-kopa.com/country/kenya"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/m-kopa.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://www.m-kopa.com/country/kenya"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "mkulimapay",
+      "name": "Mkulimapay Credit",
+      "short_name": "Mkulimapay Credit",
+      "legal_name": "Mkulimapay Credit Ltd",
+      "trading_name": "Mkulimapay Credit",
+      "subtitle": "Information from the CBK-licensed Digital Credit Providers directory",
+      "description": "This legal entity appears in the Central Bank of Kenya directory of licensed digital credit providers, updated September 29, 2026. Contact the lender through its published channels to confirm currently available credit products and terms.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 164,
+      "licensed_on": "2025-06-05",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [],
+      "products": [],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "0748820255"
+        ],
+        "email": "mkulimacash@gmail.com",
+        "office_address": "Shell Tegemeo, next to Mountain View Mall, off Waiyaki Way, Nairobi"
+      },
+      "official_website_url": null,
+      "website_verification": "NOT_ESTABLISHED",
+      "application_channels": [],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/mkulimapay.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "mogo",
+      "name": "MOGO",
+      "short_name": "MOGO",
+      "legal_name": "Mogo Auto Limited",
+      "trading_name": "MOGO",
+      "subtitle": "Vehicle financing, logbook finance and boda boda financing.",
+      "description": "Vehicle financing, logbook finance and boda boda financing.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 166,
+      "licensed_on": "2024-06-27",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "ASSET_FINANCE",
+        "PERSONAL"
+      ],
+      "products": [
+        {
+          "name": "Car financing",
+          "source_url": "https://www.mogo.co.ke/faq/car-loan",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Logbook loans",
+          "source_url": "https://www.mogo.co.ke/faq/car-loan",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Boda boda financing",
+          "source_url": "https://www.mogo.co.ke/faq/car-loan",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254768469112"
+        ],
+        "email": "info@mogo.co.ke",
+        "office_address": "Pine Tree Plaza, Kaburu Drive, off Ngong Road, Nairobi"
+      },
+      "official_website_url": "https://www.mogo.co.ke/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://www.mogo.co.ke/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/mogo.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://www.mogo.co.ke/faq/car-loan"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "momentum-credit",
+      "name": "Momentum Credit",
+      "short_name": "Momentum Credit",
+      "legal_name": "Momentum Credit Limited",
+      "trading_name": "Momentum Credit",
+      "subtitle": "Information from the CBK-licensed Digital Credit Providers directory",
+      "description": "This legal entity appears in the Central Bank of Kenya directory of licensed digital credit providers, updated September 29, 2026. Contact the lender through its published channels to confirm currently available credit products and terms.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 167,
+      "licensed_on": "2024-10-01",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [],
+      "products": [],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254709434900"
+        ],
+        "email": "info@momentumcredit.co.ke",
+        "office_address": "International House, 9th Floor, Mama Ngina Street, Nairobi"
+      },
+      "official_website_url": null,
+      "website_verification": "NOT_ESTABLISHED",
+      "application_channels": [],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/momentum-credit.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "pezesha",
+      "name": "Pezesha",
+      "short_name": "Pezesha",
+      "legal_name": "Pezesha Africa Limited",
+      "trading_name": "Pezesha",
+      "subtitle": "Working-capital and credit infrastructure services for micro and small enterprises.",
+      "description": "Working-capital and credit infrastructure services for micro and small enterprises.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 198,
+      "licensed_on": "2023-01-30",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "BUSINESS"
+      ],
+      "products": [
+        {
+          "name": "MSME working-capital finance",
+          "source_url": "https://pezesha.com/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254755768547"
+        ],
+        "email": "hello@pezesha.com",
+        "office_address": "7th Floor, Rainbow Towers, Muthithi Road, Westlands, Nairobi"
+      },
+      "official_website_url": "https://pezesha.com/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://pezesha.com/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/pezesha.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://pezesha.com/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "platinum-credit",
+      "name": "Platinum Credit",
+      "short_name": "Platinum Credit",
+      "legal_name": "Platinum Credit Limited",
+      "trading_name": "Platinum Credit",
+      "subtitle": "Credit products including personal, SME, check-off and logbook loans.",
+      "description": "Credit products including personal, SME, check-off and logbook loans.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 201,
+      "licensed_on": "2025-09-02",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "PERSONAL",
+        "BUSINESS",
+        "ASSET_FINANCE"
+      ],
+      "products": [
+        {
+          "name": "Personal loans",
+          "source_url": "https://platinumcredit.co.ke/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "SME loans",
+          "source_url": "https://platinumcredit.co.ke/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Check-off loans",
+          "source_url": "https://platinumcredit.co.ke/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Logbook loans",
+          "source_url": "https://platinumcredit.co.ke/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254706644440",
+          "0706644442",
+          "0709900000"
+        ],
+        "email": "info@platinumcredit.co.ke",
+        "office_address": "Mezzanine Floor, International House, Mama Ngina Street, Nairobi"
+      },
+      "official_website_url": "https://platinumcredit.co.ke/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://platinumcredit.co.ke/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/platinum-credit.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://platinumcredit.co.ke/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "premier-credit",
+      "name": "Premier Credit",
+      "short_name": "Premier Credit",
+      "legal_name": "Premier Credit Limited",
+      "trading_name": "Premier Credit",
+      "subtitle": "Business, personal, logbook and salary-deduction financing.",
+      "description": "Business, personal, logbook and salary-deduction financing.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 203,
+      "licensed_on": "2024-10-01",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "PERSONAL",
+        "BUSINESS",
+        "ASSET_FINANCE"
+      ],
+      "products": [
+        {
+          "name": "Business loans",
+          "source_url": "https://www.premierkenya.co.ke/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Personal loans",
+          "source_url": "https://www.premierkenya.co.ke/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Logbook loans",
+          "source_url": "https://www.premierkenya.co.ke/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Deduction-at-source loans",
+          "source_url": "https://www.premierkenya.co.ke/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254730812000",
+          "+254709176000"
+        ],
+        "email": "info@premiergroup.co.ke",
+        "office_address": "Nginyo Towers, 5th Floor, Koinange Street, Nairobi"
+      },
+      "official_website_url": "https://www.premierkenya.co.ke/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://www.premierkenya.co.ke/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/premier-credit.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://www.premierkenya.co.ke/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "progressive-credit",
+      "name": "Progressive Credit",
+      "short_name": "Progressive Credit",
+      "legal_name": "Progressive Credit Limited",
+      "trading_name": "Progressive Credit",
+      "subtitle": "Credit solutions for individuals and businesses.",
+      "description": "Credit solutions for individuals and businesses.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 205,
+      "licensed_on": "2024-06-27",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "PERSONAL",
+        "BUSINESS"
+      ],
+      "products": [],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "0730669811"
+        ],
+        "email": "info@progressivecr.com",
+        "office_address": "Flamingo Towers, Mara Road, Nairobi"
+      },
+      "official_website_url": "https://progressivecr.com/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://progressivecr.com/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/progressive-credit.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://progressivecr.com/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "spotit",
+      "name": "SpotIt",
+      "short_name": "SpotIt",
+      "legal_name": "Little Limited",
+      "trading_name": "SpotIt",
+      "subtitle": "Little Limited is listed in the CBK directory as trading as SpotIt; application channel not verified.",
+      "description": "Little Limited is listed in the CBK directory as trading as SpotIt; application channel not verified.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 141,
+      "licensed_on": "2025-09-02",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [],
+      "products": [],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254709044000"
+        ],
+        "email": "legal@little.africa",
+        "office_address": "Musa Gitau Road, Craft Silicon Campus, off Waiyaki Way, Nairobi"
+      },
+      "official_website_url": null,
+      "website_verification": "NOT_ESTABLISHED",
+      "application_channels": [],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/spotit.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "tala",
+      "name": "Tala",
+      "short_name": "Tala",
+      "legal_name": "Inventure Mobile Limited",
+      "trading_name": "Tala",
+      "subtitle": "Mobile credit accessed through Tala’s official Android application.",
+      "description": "Mobile credit accessed through Tala’s official Android application.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 108,
+      "licensed_on": "2023-01-30",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "PERSONAL",
+        "BUSINESS"
+      ],
+      "products": [
+        {
+          "name": "Mobile loan",
+          "source_url": "https://tala.co.ke/loan-app-help/loan-application-process/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "0800720597"
+        ],
+        "email": "hellokenya@talamobile.com",
+        "office_address": "The Oval, 6th Floor, Wing A, Ring Road, Westlands, Nairobi"
+      },
+      "official_website_url": "https://tala.co.ke/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://tala.co.ke/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/tala.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://tala.co.ke/loan-app-help/loan-application-process/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "watu",
+      "name": "Watu",
+      "short_name": "Watu",
+      "legal_name": "Watu Credit Ltd",
+      "trading_name": "Watu",
+      "subtitle": "Asset finance for motorcycles, three-wheelers and smart devices.",
+      "description": "Asset finance for motorcycles, three-wheelers and smart devices.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 269,
+      "licensed_on": "2025-06-05",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "ASSET_FINANCE"
+      ],
+      "products": [
+        {
+          "name": "Motorcycle and tuk-tuk financing",
+          "source_url": "https://watu.com/kenya/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        },
+        {
+          "name": "Smart-device financing",
+          "source_url": "https://watu.com/kenya/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "0790000999"
+        ],
+        "email": "info@watuafrica.com",
+        "office_address": "Hill Park Building, Lower Hill Road, Upper Hill, Nairobi"
+      },
+      "official_website_url": "https://watu.com/kenya/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://watu.com/kenya/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/watu.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://watu.com/kenya/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "zanifu",
+      "name": "Zanifu",
+      "short_name": "Zanifu",
+      "legal_name": "Zanifu Limited",
+      "trading_name": "Zanifu",
+      "subtitle": "Inventory and supplier-linked financing for retailers.",
+      "description": "Inventory and supplier-linked financing for retailers.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 278,
+      "licensed_on": "2023-01-30",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "BUSINESS"
+      ],
+      "products": [
+        {
+          "name": "Retail inventory financing",
+          "source_url": "https://www.zanifu.com/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254713023159"
+        ],
+        "email": "legal@zanifu.com",
+        "office_address": "Kenrail Towers, 4th Floor, Mkungu Close, Nairobi"
+      },
+      "official_website_url": "https://www.zanifu.com/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://www.zanifu.com/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/zanifu.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://www.zanifu.com/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "zashloan",
+      "name": "Zash Loan",
+      "short_name": "Zash Loan",
+      "legal_name": "Zillions Credit Limited",
+      "trading_name": "Zash Loan",
+      "subtitle": "Digital loans offered through Zash Loan’s official channels.",
+      "description": "Digital loans offered through Zash Loan’s official channels.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 281,
+      "licensed_on": "2024-03-06",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "PERSONAL"
+      ],
+      "products": [
+        {
+          "name": "Digital mobile loan",
+          "source_url": "https://www.zashloan.com/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "0725013031"
+        ],
+        "email": "info@zashloan.com",
+        "office_address": "Omega Business Park, Go Down 2, Baba Dogo, Nairobi"
+      },
+      "official_website_url": "https://www.zashloan.com/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://www.zashloan.com/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/zashloan.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://www.zashloan.com/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    },
+    {
+      "id": "zenka",
+      "name": "Zenka",
+      "short_name": "Zenka",
+      "legal_name": "Zenka Digital Limited",
+      "trading_name": "Zenka",
+      "subtitle": "Mobile loans with applications handled by Zenka’s own service.",
+      "description": "Mobile loans with applications handled by Zenka’s own service.",
+      "regulatory_category": "DIGITAL_CREDIT_PROVIDER",
+      "regulator": "CENTRAL_BANK_OF_KENYA",
+      "cbk_directory_entry_number": 279,
+      "licensed_on": "2023-03-27",
+      "license_listing_as_of": "2026-09-29",
+      "license_source_url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf",
+      "product_categories": [
+        "PERSONAL"
+      ],
+      "products": [
+        {
+          "name": "Mobile loan",
+          "source_url": "https://zenka.co.ke/",
+          "amount_min_kes": null,
+          "amount_max_kes": null,
+          "rate_note": null,
+          "repayment_note": null
+        }
+      ],
+      "products_note": "Available products, charges, eligibility and availability must be confirmed directly with the provider. No loan approval is guaranteed.",
+      "contact": {
+        "phone_numbers": [
+          "+254112480254",
+          "+254207650878"
+        ],
+        "email": "info@zenka.co.ke",
+        "office_address": "Mirage Tower, Tower 2, 12th Floor, Waiyaki Way, Westlands, Nairobi"
+      },
+      "official_website_url": "https://zenka.co.ke/",
+      "website_verification": "PROVIDER_SITE_REVIEWED",
+      "application_channels": [
+        {
+          "type": "PROVIDER_WEBSITE",
+          "label": "Visit provider website",
+          "url": "https://zenka.co.ke/"
+        }
+      ],
+      "availability_status": "CHECK_WITH_PROVIDER",
+      "icon_url": "https://derekkemoi.github.io/flexy-kash-config/assets/icons/licensed-providers/zenka.png",
+      "icon_type": "REPRESENTATIVE_ICON",
+      "sources": [
+        {
+          "title": "CBK Digital Credit Providers Directory — September 29, 2026",
+          "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf"
+        },
+        {
+          "title": "Provider website/product information",
+          "url": "https://zenka.co.ke/"
+        }
+      ],
+      "last_verified_on": "2026-11-06"
+    }
+  ]
+}
